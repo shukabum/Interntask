@@ -1,0 +1,324 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.im {
+  /* aspect-ratio: 1/1; */
+  height: 400px;
+  height: 200px;
+  transform: scale(2);
+  z-index: -1;
+}
+
+.navbar {
+  /* position: static; */
+  display: flex;
+  font-family: "Segoe UI";
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+select {
+  border: none;
+  font-family: "Segoe UI";
+  font-size: 19px;
+  font-weight: 600;
+}
+.hero-section {
+  display: flex;
+  height: fit-content;
+  justify-content: space-evenly;
+  height: 400px;
+  align-items: center;
+}
+.textstyle1 {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: "Nunito Sans";
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.parah1 {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+}
+.back2 {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  height: 1000px;
+  background: #f8fafc;
+  /* background-color: green; */
+}
+.butn {
+  position: relative;
+  border-radius: 5rem;
+  font-family: "Nunito Sans";
+  font-size: 1.5rem;
+  padding: 1rem;
+  background: #1492e6;
+  box-shadow: 0px 16px 48px #00000029;
+  /* background: #1492e6 0% 0% no-repeat padding-box; */
+  border-radius: 33px;
+  border: none;
+  color: white;
+  width: 220px;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  height: 65px;
+}
+
+.text2 {
+  display: flex;
+  font-family: "Nunito Sans";
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 15rem;
+  justify-content: center;
+  /* background-color: red; */
+}
+/* text---cards------------------ */
+.cards {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  justify-content: space-evenly;
+  /* background: #f8fafc; */
+}
+.card {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 20%;
+  padding: 2rem;
+  font-family: "Nunito Sans";
+  border: none;
+  gap: 2rem;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.card-head {
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 2rem;
+}
+.card-parah {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.text3 {
+  display: flex;
+  font-family: "Nunito Sans";
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 2rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.sect2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.piccard {
+  display: flex;
+  height: fit-content;
+  width: 300px;
+  flex-direction: column;
+  gap: 2rem;
+  background: transparent;
+  border: none;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.piccard-head {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.piccard-parah {
+  font-family: "Nunito Sans";
+  /* font-weight: bolder; */
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+.imag {
+  aspect-ratio: 1/1;
+  width: 180px;
+  height: 150px;
+}
+.tagger {
+  margin-top: 10rem;
+  display: flex;
+  font-family: "Nunito Sans";
+  font-weight: bolder;
+  font-size: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.cont-info {
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+}
+.info1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.imges {
+  height: 50px;
+  width: 50px;
+}
+.info-head {
+  font-family: "Nunito Sans";
+  font-size: 2rem;
+  font-weight: 700;
+}
+.info-parah {
+  font-family: "Nunito Sans";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.btn {
+  border-radius: 5rem;
+  font-family: "Nunito Sans";
+  font-size: 1.5rem;
+  padding: 1rem;
+  background: #1492e6;
+  box-shadow: 0px 16px 48px #00000029;
+  /* background: #1492e6 0% 0% no-repeat padding-box; */
+  border-radius: 33px;
+  border: none;
+  color: white;
+  width: 220px;
+  margin-top: 1rem;
+  height: 65px;
+}
+.back3 {
+  height: 400px;
+  /* background: red; */
+  width: 100%;
+  /* border-radius: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back4 {
+  height: 280px;
+  width: 90%;
+  background: #f8fafc;
+  align-items: center;
+  border-radius: 5rem;
+  position: absolute;
+  box-shadow: 0px 16px 48px #00000029;
+}
+.text5 {
+  font-family: "Nunito Sans";
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.strss {
+  height: 15px;
+  width: 15px;
+}
+.textcards2 {
+  display: flex;
+  gap: 5rem;
+  margin-left: 0%;
+  justify-content: center;
+  align-items: center;
+  /* width: 300px; */
+  /* background-color: white; */
+}
+.cards2 {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  background-color: white;
+  border-radius: 3rem;
+  padding: 2rem;
+  gap: 1rem;
+  box-shadow: 0px 16px 48px #00000029;
+}
+
+.headss {
+  display: flex;
+  /* background-color: red; */
+  width: 200px;
+  justify-content: space-between;
+}
+.name {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+}
+.pos {
+  font-family: "Nunito Sans";
+  font-weight: 600;
+}
+.cards-text2 {
+  font-weight: 500;
+  font-family: "Nunito Sans";
+  font-size: 1rem;
+}
+.images {
+  height: 45px;
+  width: 45px;
+}
+
+.text10 {
+  display: flex;
+  font-family: "Nunito Sans";
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.logs {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tex {
+  font-family: "Nunito Sans";
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  height: 300px;
+  font-weight: 900;
+  font-family: "Nunito Sans";
+  letter-spacing: 0rem;
+  font-size: 1.5rem;
+}
